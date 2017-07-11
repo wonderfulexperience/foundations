@@ -1,0 +1,12 @@
+MuckRock page: https://www.muckrock.com/foi/united-states-of-america-10/us-marshals-incarcerated-population-by-location-20860/#file-137092
+
+Data summary: All counts of individuals held at all locations associated with the U.S. Marshals Service for every day in July 2015
+
+Target: Get daily population of US marshals facilities
+
+Steps:
+1. Use Tabula to export as csv (first page)
+
+2. Import csv into pandas with Jupyter Notebook (USMarshals.ipynb)
+
+3. Export data of facilities and population to csv

@@ -1,0 +1,16 @@
+MuckRock page: https://www.muckrock.com/foi/united-states-of-america-10/steve-jobs-fbi-files-847/#comms
+
+Data summary: FBI file for Steve Jobs
+
+Target: Get private addresses of Steve Jobs
+
+Steps:
+1. convert to picture with command tool ImageMagick
+		convert -density 300 Jobs.pdf[8] Jobs.png
+
+2. define uzn file with Kull
+
+3. use tesseract for OCR
+		tesseract Jobs.png Jobs -psm 4
+
+4. clean up Jobs.txt

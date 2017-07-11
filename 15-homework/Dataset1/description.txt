@@ -1,0 +1,14 @@
+MuckRock page: https://www.muckrock.com/foi/united-states-of-america-10/stephen-colbert-complaints-37334/#comms
+
+Data summary: Complaints filed against talk show host Stephen Colbert regarding his comments on Donald Trump
+
+Target: Get cities of all complaining viewers
+
+Steps:
+1. Use Jupyter Notebook "Colbert.ipynb" with pdfquery
+
+2. load pdf
+
+3. search for lines with "city"
+
+4. clean up the string and add to a list of addresses
