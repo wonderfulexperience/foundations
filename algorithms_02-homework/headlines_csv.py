@@ -5,10 +5,10 @@ import os
 
 def send_message(this_message, this_subject, this_API, filename):
     return requests.post(
-        "https://api.mailgun.net/v3/sandbox1b96f86f57274a0b85260981f5da32f6.mailgun.org/messages",
+        "https://api.mailgun.net/v3/[redacted]/messages",
         auth=("api", this_API),
         files=[("attachment", (filename, open(filename,"rb").read()))],
-        data={"from": "Alexander Trentin <postmaster@sandbox1b96f86f57274a0b85260981f5da32f6.mailgun.org>",
+        data={"from": "[redacted]",
               "to": "Alexander Trentin [redactd]",
                "subject": this_subject,
               "text": this_message})
